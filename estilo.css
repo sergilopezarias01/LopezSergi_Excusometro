@@ -21,6 +21,22 @@ header p{
     color: black;
 }
 
+nav{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+nav a:hover{
+    color:green
+}
+
 main{
     padding: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -51,4 +67,20 @@ section p{
 footer{
     text-align: center;
     font-size: 2em;
+}
+
+article p{
+    margin: 10px;
+}
+
+article{
+    background-color: lightgray
+}
+
+ul{
+    background-color: lightgray;
+}
+
+li{
+    color:blue
 }
